@@ -1,7 +1,8 @@
 # Python-FINAL
 ```python
-
+This is the portfolio of python code that I learned during BISC 516. 
 ```
+Using Jupyter Notebooks 1 and 2
 
 
 ```python
@@ -497,7 +498,7 @@ fig.tight_layout()
 
 ![png](output_20_0.png)
 
-
+Python Fundamentals
 
 ```python
 # Any python interpreter can be used as a calculator
@@ -637,9 +638,11 @@ print('weight in kilograms is now:', weight_kg)
 ```python
 
 ```
-
+Analyzing Patient Data 1, 2, & 3
 
 ```python
+In this analysis, we examined inflammation data for patients participating in a clinical study.
+
 import numpy
 ```
 
@@ -952,7 +955,7 @@ matplotlib.pyplot.show()
 
 ![png](output_66_0.png)
 
-
+Storing Values in Lists
 
 ```python
 
@@ -1101,7 +1104,7 @@ print('Omitting ending index:', sond)
     Using len() to get last entry: ['sep', 'oct', 'nov', 'dec']
     Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 
-
+Using Loops
 
 ```python
 
@@ -1189,7 +1192,7 @@ print(len(name))
 
     3
 
-
+Using Multiple Files
 
 ```python
 
@@ -1261,7 +1264,7 @@ for filename in filenames:
 
 ![png](output_91_5.png)
 
-
+Making Choices
 
 ```python
 
@@ -1381,7 +1384,7 @@ else:
 
     Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
 
-
+Functions 1, 2, 3, & 4
 
 ```python
 
@@ -1530,7 +1533,6 @@ print_temperatures()
 
     Temperature in Fahrenheit was: 212.0
     Temperature in Kelvin was: 373.15
-
 
 
 ```python
@@ -1752,7 +1754,7 @@ numpy.loadtxt('inflammation-01.csv', delimiter = ',')
            [0., 0., 1., ..., 1., 1., 0.]])
 
 
-
+Defensive Programming
 
 ```python
 def offset_mean(data, target_mean_value = 0.0):
@@ -2099,12 +2101,12 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 ```python
 
 ```
-
+Transcribing DNA into  RNA
 
 ```python
 # Prompt the user to enter the input fasta file name 
 input_file_name = input("enter the name of the input fasta file:")
-
+enter the name of the input fasta file: Sumo.txt
 ```
 
 
@@ -2133,7 +2135,7 @@ for nucleotide in dna_sequence:
 
 ```python
 # Prompt the user to enter the output file name 
-
+Enter the name of the output file: Sumo_RNA.txt
 output_file_name = input("Enter the name of the output file:")
 ```
 
@@ -2149,18 +2151,21 @@ with open(output_file_name, "w") as output_file:
 
 ```python
 print(rna_sequence)
+AUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAAAUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAA
 ```
 
 
 ```python
 
 ```
-
+Translating RNA into protein
 
 ```python
 # Prompt the user to enter the input RNA file name 
 
 input_file_name = input("Enter the name of the input RNA file:")
+
+Enter the name of the input RNA file: Sumo_RNA.txt
 ```
 
 
@@ -2216,6 +2221,7 @@ for i in range(0, len(rna_sequence),3):
 # Prompt the user to enter the output file name 
 
 output_file_name = input("Enter the name of the output file:")
+Enter the name of the output file: Sumo_Protein.txt
 ```
 
 
@@ -2230,6 +2236,7 @@ with open(output_file_name, "w") as output_file:
 
 ```python
 print(protein_sequence)
+ MSDEKKGGETEHINLKVLGQDNAVVQFKIKKHTPLRKLMNAYCDRAGLSMQVVRFRFDGQPINENDTPTSLEMEEGDTIEVYQQQTGGAP
 ```
 
 
